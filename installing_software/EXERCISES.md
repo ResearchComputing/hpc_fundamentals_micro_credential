@@ -274,6 +274,6 @@ Bonus question: How do `samtools_env`, `samtools.sif`, and the source installati
 
 ### Relevant CURC Documentation 
 
-https://curc.readthedocs.io/en/latest/software/Containerizationon.html
+https://curc.readthedocs.io/en/latest/software/containerization.html
 
 --------------------------------------
