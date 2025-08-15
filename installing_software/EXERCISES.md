@@ -1,78 +1,4 @@
-## Exercise 1: Building Software from Source
-
-**Objectives:**
-1) Explore CURC compilers and compiler environment variables.
-2) Perform a simple source installation. 
-
-**Estimated time to complete**: 15 minutes
-
-### Part 1: CURC compilers and environment variables
-
-Explore CURC compiler environment variables.
-```
-module load intel
-module load impi
-module load mkl
-```
-
-The standard compiler variables FC, CC, and CXX are set as appropriate for your compiler/MPI combination. These environment variables reference the Fortran, C, and C++ compilers respectively.
-```
-echo $FC
-echo $CC
-echo $CXX
-```
-
-In addition, several environment variables are set that may be useful during the compilation process. These variables are prefixed by `CURC` and may easily be found by searching your environment.
-`env | grep CURC`
-
-These environment variables can be passed to `make` or `cmake` and make your life a lot easier by removing the need to type out long absolute paths!
-
-### Part 2: Compile a program from source.
-
-We will be installing a common bioinformatics program, Samtools, from source. 
-More info about the program: http://www.htslib.org/
-
-You will grab the Samtools source code from http://www.htslib.org/download/
-```
-cd /projects/$USER/software
-wget https://github.com/samtools/samtools/releases/download/1.17/samtools-1.17.tar.bz2
-tar -xf samtools-1.17.tar.bz2
-cd samtools-1.17 && ls
-```
-
-Can you tell which build system samtools requires? Which module should you load? 
-
-```
-mkdir -p /projects/$USER/software/install/samtools_1.17
-module load gcc
-./configure --prefix=/projects/$USER/software/install/samtools_1.17
-```
-
-Are any files created or modified (or not!) during the configure step? Which one(s)?
-Hints:
-`ls -lt`
-`stat <file name>`
-
-Run `make`.
-What do you see in  `/projects/$USER/software/install/samtools_1.17`?
-
-Finish the installation!
-`make install`
-
-Was your build successful? How can you tell? 
-
-Does the following command work for you? Why or why not? 
-Hint: Add the samtools bin to PATH! 
-`samtools --help`
-
-This was meant to be a learning experience, but you should always check the program's website for installation instructions!  http://www.htslib.org/download/
-
-### Relevant CURC Documentation 
-
-https://curc.readthedocs.io/en/latest/compute/compiling.html
-
---------------------------------------
-## Exercise 2: Building Software with Spack
+## Exercise 1: Building Software with Spack
 
 **Objectives:**
 1) Create a Spack environment
@@ -146,7 +72,7 @@ https://curc.readthedocs.io/en/latest/software/spack.html
 
 
 --------------------------------------
-## Exercise 3: Installing Software with Conda
+## Exercise 2: Installing Software with Conda
 
 **Objectives:**
 1) Configure your `.condarc` file
@@ -222,7 +148,7 @@ conda create --name <clonedenv> --clone <envtoclone> # clone an environment
 
 --------------------------------------
 
-## Exercise 4: Installing Software With Apptainer (formerly Singularity)
+## Exercise 3: Installing Software With Apptainer (formerly Singularity)
 
 **Objectives:**
 1) Become familiar with basic `apptainer` commands.
