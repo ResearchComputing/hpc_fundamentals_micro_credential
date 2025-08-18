@@ -15,30 +15,39 @@ Upon successfully completing the associated assignments, learners are issued a d
 
 ## Schedule and associated directories
 
-### Day 1
+### Day 1: Monday, August 18
 
-- Module 1: Getting familiar with Research Computing 
+- 09:00-10:10: Module 1: Getting familiar with Research Computing
     - Associated directory: `getting_familiar_rc`
-- Module 2: How to ask for help
-    - Associated directory: `asking_for_help`
-
-### Day 2
-
-- Module 3: Logging in to CURC and working with Linux 
+- 10:10-10:20: Break
+- 10:20-10:50: In-class hands-on assessment #1 
+- 10:50-12:00: Module 2: Logging in to CURC and working with Linux
     - Associated directory: `logging_in_and_linux`
-- Module 4: Transferring your data to/from CURC 
+- 12:00-12:30: Helpdesk (Optional)
+
+ 
+
+### Day 2: Tuesday, August 19
+
+- 9:00-10:00: Module 3: Transferring your data to/from CURC
     - Associated directory: `transferring_data`
-
-### Day 3 
-
-- Module 5: Finding, downloading, and applying software on CURC 
+- 10:00-10:10: Break
+- 10:10-11:10: Module 4: Finding, downloading, and applying software on CURC
     - Associated directory: `installing_software`
-- Module 6: Scheduling basic jobs 
+- 11:10-11:20: Break
+- 11:20-12:00: In-class hands-on assessment #2 
+- 12:00-12:30: Helpdesk (Optional)
+
+ 
+
+### Day 3: Wednesday, August 20
+
+- 9:00-10:10: Module 5: Scheduling basic jobs
     - Associated directory: `scheduling_jobs`
+- 10:10-10:20: Break
+- 10:20-11:20: Module 6: Requesting resources and monitoring resource use
+    - Associated directory: `scheduling_jobs`
+- 11:20-11:30: Break
+- 11:30-12:00: In-class hands-on assessment #3 
+- 12:00-12:30: Helpdesk (Optional)
 
-### Day 4 
-
-- Module 7: Monitoring resource use 
-    - Associated directory: `monitoring_resources`
-- Module 8: Requesting research computing resource allocations 
-   - Associated directory: `research_allocations`
