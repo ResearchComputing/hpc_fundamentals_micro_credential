@@ -46,7 +46,7 @@ Upon successfully completing the associated assignments, learners are issued a d
     - Associated directory: `scheduling_jobs`
 - 10:10-10:20: Break
 - 10:20-11:20: Module 6: Requesting resources and monitoring resource use
-    - Associated directory: `scheduling_jobs`
+    - Associated directory: `monitoring_resources`
 - 11:20-11:30: Break
 - 11:30-12:00: In-class hands-on assessment #3 
 - 12:00-12:30: Helpdesk (Optional)
